@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bebas+Neue&family=Outfit:wght@100..900&family=Stoke:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Outfit:wght@100..900&family=Stoke:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #0a0a0a;
+}
+
+.bio-site {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 15px;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagem img {
+    height: 100px;
+    border-radius: 30px;
+    box-shadow: 0 1px 5px rgba(186, 186, 186, 0.408);
+}
+
+.stack {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+
+.stack h1 {
+    color: #e9e524;
+    font-family: "Libre Caslon Text", serif;
+    font-size: 20px;
+}
+
+.stack h2 {
+    color: aliceblue;
+    font-family: "Exo 2", serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.redes-sociais {
+    display: flex;
+    margin-top: 12px;
+}
+
+.redes-sociais i {
+    font-size:30px;
+    color: #e9e524;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.links {
+    margin-top: 30px;
+}
+
+.portfolio button {
+    padding: 15px 90px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    background: linear-gradient(135deg, #f3ef11 0%, #8f8500 100%);
+    box-shadow: 0 1px 5px rgba(186, 186, 186, 0.408);
+    transition: 0.75s;
+}
+
+.portfolio button:hover {
+    background: #dccf17;
+}
